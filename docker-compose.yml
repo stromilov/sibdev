@@ -1,0 +1,11 @@
+#docker-compose up
+version: "3.8"
+services:
+    sibdev:
+        build: .
+        ports:
+            - "8000:8000"
+#   db:
+#       images: postgres
+#   web:
+#       images: nginx
