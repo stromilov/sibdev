@@ -1,6 +1,7 @@
 from django.db import models
 
 class Deal(models.Model):
+    """Модель покупателя"""
     customer = models.CharField(max_length=50)
     item     = models.CharField(max_length=50)
     total    = models.IntegerField(default=0)
