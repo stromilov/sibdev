@@ -1,4 +1,7 @@
+#models.py
+
 from django.db import models
+
 
 class Deal(models.Model):
     """Модель покупателя"""
