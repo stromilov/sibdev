@@ -25,6 +25,7 @@ def upload_file(request):
                     destination.write(chunk)
 
             data = csv.reader(open("deal.csv"), delimiter=",")
+            Deal.objects.all().delete()
 
             for row in data:
                 if row[0] != 'customer':

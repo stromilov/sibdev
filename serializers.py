@@ -9,4 +9,4 @@ class DealSerializer(serializers.ModelSerializer):
     """Сериализатор покупателя"""
     class Meta:
         model = Deal
-        fields = ('id', 'customer', 'total', 'quantity')
+        fields = ('customer', 'item', 'total', 'quantity')
