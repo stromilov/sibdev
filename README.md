@@ -2,16 +2,16 @@
 
 <h3>Для запуска необходимо все файлы поместить в одну папку:<h3>
 <br>
-<p>папка<p>
-  |__docker-compose.yml
-  |__Dockerfile
-  |__models.py
-  |__admin.py
-  |__urls.py
-  |__serializers.py
-  |__views.py
-  |__deal.html
-  |__form.py
+<p>папка<p><br>
+  |__docker-compose.yml<br>
+  |__Dockerfile<br>
+  |__models.py<br>
+  |__admin.py<br>
+  |__urls.py<br>
+  |__serializers.py<br>
+  |__views.py<br>
+  |__deal.html<br>
+  |__form.py<br>
   <br>
   Из командной строки перейти в папку и выполнить команду:
     docker-compose up
