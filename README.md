@@ -2,7 +2,7 @@
 
 <p>Для запуска необходимо все файлы поместить в одну папку:</p>
 <br>
-<p>папка<p>
+папка
   |__docker-compose.yml<br>
   |__Dockerfile<br>
   |__models.py<br>
